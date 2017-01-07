@@ -41,13 +41,20 @@ header .menu-bar ul {
 header .menu-bar ul li {
   list-style-type: none;
   display: inline;
-  margin-right: 1em;
+  margin-right: 20px;
 }
 
 header .menu-bar ul li a {
-  color: white;
+  color: whitesmoke;
   text-decoration: none;
   font-size: 1.2em;
+}
+
+/*Buttons*/
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
 }
 
 /*Content*/

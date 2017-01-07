@@ -8,7 +8,65 @@ html {
 }
 
 body {
-  background-color: #EFEFEF;
-  margin: 0;
+  background-color: #FFF;
   padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: #4A4A4A;
+  font-size: 32px;
+}
+
+/*Menu bar*/
+
+header,footer {
+  margin: 0;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-content: center;
+}
+
+header .menu-bar ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+}
+
+header .menu-bar ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/*Main Content*/
+main {
+  margin: auto;
+  width: 80%;
+}
+
+.container {
+
+}
+
+.container-item {
+  margin-left: 2em;
+  /*border: 1px solid gray;*/
+}
+
+.container-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-top:1em;
+}
+
+.flex-wrapper {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
 }
