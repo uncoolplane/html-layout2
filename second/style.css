@@ -8,7 +8,61 @@ html {
 }
 
 body {
-  background-color: #EFEFEF;
-  margin: 0;
+  background-color: #D6D6D6;
+  margin: auto 10em;
   padding: 0;
+  padding-bottom: 80px;
+}
+
+.blue {
+  background-color: #4A90E2;
+  color: white;
+}
+
+.red {
+  background-color: #D0021B;
+  color: white;
+}
+
+/* Menu Bar*/
+header .menu-bar {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: right;
+}
+
+header .menu-bar ul {
+  margin-right: 40px;
+}
+
+header .menu-bar ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 1em;
+}
+
+header .menu-bar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/*Content*/
+.container {
+  background-color: white;
+  padding: 2em;
+  margin-top: 30px;
+}
+
+.container:first-of-type {
+  margin-top: 20px;
+}
+
+.container img {
+  width: 100%;
+  max-height: 300px;
+  margin: auto;
 }
